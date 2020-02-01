@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  height: 80px;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #C6C8CA;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background: white;
+  border-top: 2px solid #C6C8CA;
+  color: #E51D66;
+  vertical-align: middle;
+}
+
+footer p {
+  margin-left: 30px;
+  font-weight: lighter;
+}
+
+* {
+  margin: 0;
+}
+
+.brand {
+  font-weight: bold;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.brand div {
+  margin-left: 25px;
+  font-size: large;
+}
+
+.nav {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav div {
+  display: inline-block;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.sign-in {
+  flex-grow: 1;
+}
+
+#sign-in {
+  float: right;
+  margin-right: 64px;
+  margin-top: 25px;
+  padding: 11px 34px;
+  background-color: white;
+  border: 1px solid #E5346A;
+  border-radius: 4px;
+}
+
+.content {
+  flex: 1;
+  /* this is the key; consumes all available height */
+  background: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  flex-grow: 2;
+  /* background-color: red; */
+  border-right: 1px solid #C6C8CA;
+  font-family: 'Poppins';
+  display: flex;
+  flex-direction: column;
+}
+
+.left .main-message {
+  font-size: 52pt;
+  margin-left: 38px;
+  margin-top: 100px;
+}
+
+.left .back-up-text {
+  margin-bottom: 50px;
+  font-size: larger;
+  margin-left: 38px;
+  margin-top: 25px;
+}
+
+.explore-section {
+  margin-top: 143px;
+  margin-left: 56px;
+  /* margin-bottom: 60px; */
+  display: flex;
+  align-items: center;
+}
+
+.explore-btn {
+  padding: 15px 35px 15px 35px;
+  background-color: #5A10F5;
+  border-radius: 4px;
+  color: white;
+}
+
+ .flavor-text {
+  margin-left: 25px;
+}
+
+.right {
+  font-family: 'Poppins';
+  /* background-color: blue; */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-of-week {
+      font-size: 25pt;
+}
+
+
+.book-cover {
+  height: 600px;
+  width: 400px;
+  background-image: url("/book-cover.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.listen {
+  margin-top: 25px;
+  font-size: 15pt;
+}
+
+/* #header {
+  height: 65px;
+  position: fixed;
+  z-index: 100;
+  border-bottom: 2px solid #C6C8CA;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.brand {
+  background-color: red;
+  height:100%;
+}
+
+.nav {
+  background-color: red;
+  height:100%;
+}
+
+
+.sign-in {
+  background-color: red;
+  height:100%;
+}
+
+
+
+
+
+
+#footer {
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  bottom: 0;
+  border-top: 2px solid #C6C8CA;
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+} */
